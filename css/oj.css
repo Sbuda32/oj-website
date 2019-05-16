@@ -1,0 +1,481 @@
+* { 
+  
+  box-sizing: border-box; 
+}
+
+.mediumphotographyportfolio {
+  
+  pointer-events: none;
+  overflow: hidden;  
+  width: 800px;  
+  position: relative;  
+  height: 600px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .skull-image {
+  
+  pointer-events: none;  
+  top: 0px;  
+  height: 600px;  
+  width: 50%;  
+  position: absolute;  
+  margin: 0;  
+  left: 30%;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(3deg);
+  animation: skull 1s 6;
+}
+
+@keyframes skull {
+  
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+}
+
+.mediumphotographyportfolio .menugroup {
+  
+  pointer-events: none;  
+  top: 26px;  
+  height: 72px;  
+  width: 83px;  
+  position: absolute;  
+  margin: 0;  
+  left: 23px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .background {
+  
+  pointer-events: none;  
+  top: 0px;  
+  height: 72px;  
+  width: 83px;  
+  position: absolute;  
+  margin: 0;  
+  left: 0px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .bgframe {
+  
+  pointer-events: none;  
+  top: 5px;  
+  height: 63px;  
+  width: 73px;  
+  position: absolute;  
+  margin: 0;  
+  left: 5px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .big-menu-skull {
+  
+  pointer-events: none;  
+  top: 4px;  
+  height: 67px;  
+  width: 67px;  
+  position: absolute;  
+  margin: 0;  
+  left: 8px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .small-menu-skull {
+  
+  pointer-events: none;  
+  top: 12px;  
+  height: 53px;  
+  width: 53px;  
+  position: absolute;  
+  margin: 0;  
+  left: 15px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+
+
+.mediumphotographyportfolio .menugroup .menu {
+  pointer-events: none;  top: 28px;  height: 17px;  width: 29px;  position: absolute;  margin: 0;  left: 27px;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .menu .a31 {
+  pointer-events: none;  background-color: red;  bottom: 0%;  height: 17.65%;  width: 100%;  position: absolute;  margin: 0;  left: 0%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .menu .a21 {
+  pointer-events: none;  background-color: red;  top: 41.18%;  height: 17.65%;  width: 100%;  position: absolute;  margin: 0;  left: 0%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup .menu .a11 {
+  pointer-events: none;  background-color: red;  top: 0%;  height: 17.65%;  width: 100%;  position: absolute;  margin: 0;  left: 0%;  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup.state1-to-state2 .blackoval {
+  transition: all 0.1s ease-in-out 0.0s;
+  width: 23px;top: 26px;left: 30px;height: 23px;
+}
+
+.mediumphotographyportfolio .menugroup.state1-to-state2 .menu {
+  transition: all 0.1s ease-in-out 0.0s;
+  opacity: 0;
+}
+
+.mediumphotographyportfolio .menugroup.state2-to-state3 .menu .a31 {
+  transition: all 0.2s ease-in-out 0.0s;
+  transform: rotate(45deg);bottom: calc(0.00% + 7px);
+}
+
+.mediumphotographyportfolio .menugroup.state2-to-state3 .menu .a21 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;
+}
+
+.mediumphotographyportfolio .menugroup.state2-to-state3 .menu .a11 {
+  transition: all 0.2s ease-in-out 0.0s;
+  top: calc(0.00% + 7px);transform: rotate(-45deg);
+}
+
+.mediumphotographyportfolio .menugroup.state2-to-state3 .blackoval {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 53px;top: 12px;left: 15px;height: 53px;
+}
+
+.mediumphotographyportfolio .menugroup.state2-to-state3 .menu {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;
+}
+
+.mediumphotographyportfolio .menugroup.state3-to-state4 .blackoval {
+  transition: all 0.1s ease-in-out 0.0s;
+  width: 23px;top: 26px;left: 30px;height: 23px;
+}
+
+.mediumphotographyportfolio .menugroup.state3-to-state4 .menu {
+  transition: all 0.1s ease-in-out 0.0s;
+  opacity: 0;
+}
+
+.mediumphotographyportfolio .menugroup.state3-to-state4 .menu .a31 {
+  transition: all 0.1s ease-in-out 0.0s;
+  transform: rotate(0deg);bottom: 0%;
+}
+
+.mediumphotographyportfolio .menugroup.state3-to-state4 .menu .a21 {
+  transition: all 0.1s ease-in-out 0.0s;
+  opacity: 1;
+}
+
+.mediumphotographyportfolio .menugroup.state3-to-state4 .menu .a11 {
+  transition: all 0.1s ease-in-out 0.0s;
+  top: 0%;transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .menugroup.state4-to-state1 .blackoval {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 53px;top: 12px;left: 15px;height: 53px;
+}
+
+.mediumphotographyportfolio .menugroup.state4-to-state1 .menu {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;
+}
+
+.mediumphotographyportfolio .a3 {
+  pointer-events: none;  
+  background-color: red;  
+  top: 307px;  height: 46px;  
+  width: 239px;  
+  position: absolute;  
+  margin: 0;  
+  left: 10px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .a2 {
+  pointer-events: none;  
+  background-color: red;  
+  top: 215px;  
+  height: 46px;  
+  width: 222px;  
+  position: absolute;  
+  margin: 0;  
+  left: 10px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .a1 {
+  pointer-events: none;  
+  background-color: red;  
+  top: 123px;  
+  height: 46px;  
+  width: 193px;  
+  position: absolute;  
+  margin: 0;  
+  left: 10px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .home {
+  
+  pointer-events: none;  
+  height: 40px;
+  top: 2px;   
+  position: absolute;  
+  margin: 0;  
+  left: 6px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .gallery {
+  
+  pointer-events: none;   
+  height: 40px;
+  top: 2px;   
+  position: absolute;  
+  margin: 0;  
+  left: 6px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio .contact {
+  
+  pointer-events: none;  
+  height: 40px;
+  top: 2px;  
+  position: absolute;  
+  margin: 0;  
+  left: 6px;  
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+}
+
+.mediumphotographyportfolio.state0-to-state5 .a2 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state0-to-state5 .contact {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state0-to-state5 .gallery {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state0-to-state5 .home {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state0-to-state5 .a3 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state0-to-state5 .a1 {
+  transition: all 0.001s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state2-to-state1 .a1 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 193px;left: 10px;
+}
+
+.mediumphotographyportfolio.state1-to-state2 .a1 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 7px;left: 196px;
+}
+
+.mediumphotographyportfolio.state1-to-state3 .a2 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 7px;left: 225px;
+}
+
+.mediumphotographyportfolio.state3-to-state1 .a2 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 222px;left: 10px;
+}
+
+.mediumphotographyportfolio.state1-to-state4 .a3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 7px;left: 242px;
+}
+
+.mediumphotographyportfolio.state4-to-state1 .a3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  width: 239px;left: 10px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .gallery {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 26px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .contact {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 26px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .home {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 26px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .a2 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 10px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .a3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 10px;
+}
+
+.mediumphotographyportfolio.state5-to-state1 .a1 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 1;left: 10px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .gallery {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .contact {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .home {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -74px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .a2 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .a3 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state1-to-state5 .a1 {
+  transition: all 0.2s ease-in-out 0.0s;
+  opacity: 0;left: -90px;
+}
+
+.mediumphotographyportfolio.state5 .a3 {
+  left: -90px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state5 .a2 {
+  left: -90px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state5 .a1 {
+  left: -90px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state5 .contact {
+  left: -74px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state5 .gallery {
+  left: -74px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state5 .home {
+  left: -74px;
+  opacity: 0.0;
+}
+.mediumphotographyportfolio.state2 .a1 {
+  width: 7px;
+  left: 196px;
+}
+.mediumphotographyportfolio.state3 .a2 {
+  width: 7px;
+  left: 225px;
+}
+.mediumphotographyportfolio.state4 .a3 {
+  width: 7px;
+  left: 242px;
+}
+.mediumphotographyportfolio .menugroup.state2 .blackoval {
+  top: 26px;
+  height: 23px;
+  width: 23px;
+  left: 30px;
+}
+.mediumphotographyportfolio .menugroup.state2 .menu {
+  opacity: 0.0;
+}
+.mediumphotographyportfolio .menugroup.state3 .menu .a21 {
+  opacity: 0.0;
+}
+.mediumphotographyportfolio .menugroup.state3 .menu .a11 {
+  top: calc(0.00% + 7px);
+  -ms-transform: rotate(-45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+.mediumphotographyportfolio .menugroup.state3 .menu .a31 {
+  bottom: calc(0.00% + 7px);
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+.mediumphotographyportfolio .menugroup.state4 .blackoval {
+  top: 26px;
+  height: 23px;
+  width: 23px;
+  left: 30px;
+}
+.mediumphotographyportfolio .menugroup.state4 .menu {
+  opacity: 0.0;
+}
