@@ -1,0 +1,34 @@
+.preloader {
+    width: 100%;
+    height: 690px;
+    background-color: black;
+}
+
+body {
+    margin: 0%;
+}
+
+.skull-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 38%;
+    top: 22%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    animation: rotate 4s linear;
+}
+
+@keyframes rotate{
+
+        from {transform: rotate(0deg)}
+        to {transform: rotate(360deg)}
+}
+
+@keyframes fading {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
