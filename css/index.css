@@ -19,7 +19,7 @@ body {
 img {
     width: 250px;
     height: 250px;
-    animation: rotate 4s linear;
+    animation: rotate 2s infinite linear;
 }
 
 @keyframes rotate{

@@ -7,7 +7,7 @@
     function frame () {
         if( loading === 100 ) {
             clearInterval(id);
-            window.open('../oj.html', '_self');
+            window.open('file:///home/sbuda32/Desktop/oj-websites/oj.html', '_self');
         }
         else {
             loading += 1;
