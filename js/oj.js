@@ -7,7 +7,7 @@
     function frame () {
         if( loading === 100 ) {
             clearInterval(id);
-            window.open('file:///home/sbuda32/Desktop/oj-websites/oj.html', '_self');
+            window.open('https://sbuda32.github.io/oj-website/oj.html', '_self');
         }
         else {
             loading += 1;
